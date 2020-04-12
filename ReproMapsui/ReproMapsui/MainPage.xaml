@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ReproMapsui.MainPage">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="88"/>
+    </Grid.RowDefinitions>
+
+    <Grid x:Name="PlaceholderGrid" Grid.Row="0" />
+    <Grid Grid.Row="1" BackgroundColor="Black" ColumnSpacing="1" Padding="1">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Frame Padding="5" Grid.Column="0" BackgroundColor="Blue" x:Name="Tab1Button">
+        <Label Text="Tab1" TextColor="White"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+      </Frame>
+      <Frame Padding="5" Grid.Column="1" BackgroundColor="Blue" x:Name="Tab2Button">
+        <Label Text="Tab2" TextColor="White"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+      </Frame>
+      <Frame Padding="5" Grid.Column="2" BackgroundColor="Blue" x:Name="Tab3Button">
+        <Label Text="Tab3" TextColor="White"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+      </Frame>
+      <Frame Padding="5" Grid.Column="3" BackgroundColor="Blue" x:Name="Tab4Button">
+        <Label Text="Tab4" TextColor="White"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+      </Frame>
+      <Frame Padding="5" Grid.Column="4" BackgroundColor="Blue" x:Name="Tab5Button">
+        <Label Text="Tab5" TextColor="White"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+      </Frame>
+    </Grid>
+  </Grid>
+
+</ContentPage>

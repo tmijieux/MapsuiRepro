@@ -1,0 +1,11 @@
+
+
+class MainPageViewModel
+{
+    public MainPageViewModel()
+    {
+
+
+    }
+
+}
